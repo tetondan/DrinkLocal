@@ -18,27 +18,36 @@ Once the project moves into development, the press release can be used as a touc
  
 ## Heading ##
   > Name the product in a way the reader (i.e. your target customers) will understand.
+  Drink Local
 
 ## Sub-Heading ##
   > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+  Find local beer wherever you are. 
 
 ## Summary ##
   > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
+  Everyone knows fresh beer is the best beer, and the closer you are to the source the fresher it is. Craft Breweries are springing up all over America, and thats giving us more options than ever before. But wading through the tap lists at most establishments can be a daunting task. Now with Drink Local, a list of breweries in your area is just one click away!
 
 ## Problem ##
   > Describe the problem your product solves.
+  Finding local craft beers and breweries in your area
 
 ## Solution ##
   > Describe how your product elegantly solves the problem.
+  Either enter the city in which you'd like to search, or search by your present location.
 
 ## Quote from You ##
   > A quote from a spokesperson in your company.
-
+  "With so many choices on the craft beer market, it's nice to be able to narrow those choices down to what's made immediately around you."
+  
 ## How to Get Started ##
   > Describe how easy it is to get started.
+  "It's easy! Simply search by your location(provided), or enter any city or zip code you'd like to search! We'll do the rest."
 
 ## Customer Quote ##
   > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
+  "I travel a lot, and wherever I am, I can count on Drink Local to find me the best local craft beers."
 
 ## Closing and Call to Action ##
   > Wrap it up and give pointers where the reader should go next.
+  "Next time you're trying to decide what to drink, let Drink Local do the hard work for you!"
