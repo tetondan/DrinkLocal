@@ -1,7 +1,6 @@
 angular.module('drinkL',[
   'drinkL.results',
   'drinkL.services',
-  'drinkL.search',
   'ngRoute'
   ])
   
@@ -9,7 +8,7 @@ angular.module('drinkL',[
     $routeProvider
       .when('/results', {
         templateUrl: '/results.html',
-        controller: 'resultsCrtl'
+        controller: 'resultsCrtl',
       })
       .when('/search', {
         templateUrl: '/search.html',

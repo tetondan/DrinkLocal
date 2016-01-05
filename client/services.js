@@ -8,7 +8,18 @@ angular.module('drinkL.services', [])
         return resp.data.data
       })
     };
+
+    var getCityByIp = function(){
+      return $http ({
+        method: 'GET',
+        url: 'https://freegeoip.net/json/'
+      }).then(function(resp){
+        return resp.data.city
+      })
+    }
     return {
-      'getResults': getResults
+      'getResults': getResults,
+      'getCityByIp': getCityByIp
     };
+
   });

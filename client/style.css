@@ -1,0 +1,76 @@
+body {
+  margin-top: 50px;
+  font-family: arial, sans-serif;
+  background-image: url('http://www.prettechcanada.com/wp-content/uploads/2014/06/Craft-Brew.jpg');
+  background-size: cover;
+}
+
+h1 {
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 75px;
+  text-shadow: 2px 2px #ff0000;
+  padding: 25px;
+  color: white;
+}
+
+.brewery, .infobar {
+  border: 1px solid #ff0000;
+  border-radius: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  background-color: white;
+}
+
+.brewery .name {
+  font-size: 30px;
+}
+
+.brewery .logo{
+  float: right;
+}
+
+.brewery .info{
+  font-size: 20px;
+}
+
+.brewery .desc {
+  background-color: #ffe9d1;
+  border-radius: 3px;
+  padding: 3px;
+}
+
+.infobar, .searchbar {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.infobar .searcher {
+  float: right;
+}
+
+.searchbar {
+  color: white;
+  text-shadow: 2px 2px #ff0000;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 2px solid #ff0000;
+  font-size: 40px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.searchbar .form, .input{
+  float: right;
+  border: 1px solid #ff0000;
+  width: 175px;
+  font-size: 35px;
+}

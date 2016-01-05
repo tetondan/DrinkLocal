@@ -1,7 +1,14 @@
+<div class='infobar'>
+  <span>Found {{names.length}} Breweries in {{city}}</span><span class='searcher'>Not the city you were looking for? <a href='/'>SEARCH AGAIN!</a></span>
+</div>
 <div class='brewery' ng-controller='resultsCrtl' ng-repeat='name in names'>
-<p>{{name.brewery.name}} <img src={{name.brewery.images.medium}}></p>
-<p>{{name.streetAddress}}, {{name.locality}}  {{name.postalCode}}</p>
-<p>{{name.phone}}</p>
-<a href={{name.brewery.website}}>{{name.brewery.website}}</a>
-<p>{{name.brewery.description}}</p>
+  <p class='name'>{{name.brewery.name}} <img class='logo' src={{name.brewery.images.medium}}></p>
+  <p class='info'>Address:</p>
+  <p>{{name.streetAddress}}, {{name.locality}}  {{name.postalCode}}</p>
+  <p class='info'>Phone Number:</p>
+  <p>{{name.phone}}</p>
+  <p class='info'>Website:</p>
+  <a href={{name.brewery.website}}>{{name.brewery.website}}</a>
+  <p class='info'>Description:</p>
+  <p class='desc'>{{name.brewery.description}}</p>
 </div>
