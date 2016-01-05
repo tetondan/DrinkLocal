@@ -1,6 +1,7 @@
 angular.module('drinkL',[
   'drinkL.results',
   'drinkL.services',
+  'drinkL.search',
   'ngRoute'
   ])
   
@@ -10,4 +11,11 @@ angular.module('drinkL',[
         templateUrl: '/results.html',
         controller: 'resultsCrtl'
       })
+      .when('/search', {
+        templateUrl: '/search.html',
+        controller: 'resultsCrtl'
+      })
+      .otherwise({
+        redirectTo: '/search'
+      });
   });

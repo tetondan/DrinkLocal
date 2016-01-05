@@ -1,1 +1,7 @@
-<p ng-controller='resultsCrtl' ng-repeat='name in names'>{{name.brewery.name}}</p>
+<div class='brewery' ng-controller='resultsCrtl' ng-repeat='name in names'>
+<p>{{name.brewery.name}} <img src={{name.brewery.images.medium}}></p>
+<p>{{name.streetAddress}}, {{name.locality}}  {{name.postalCode}}</p>
+<p>{{name.phone}}</p>
+<a href={{name.brewery.website}}>{{name.brewery.website}}</a>
+<p>{{name.brewery.description}}</p>
+</div>

@@ -1,0 +1,9 @@
+<form name="searchForm" ng-collection='resultsCrtl'>
+  <div class="form-group">
+    <label name="city">Enter A City!</label>
+    <input type="text" name="city" ng-model="name" required />
+  </div>
+   <button ng-click="count = count + 1" ng-init="count=0">Submit</button>
+
+</form>
+  <p>count: {{count}}</p>

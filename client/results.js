@@ -2,6 +2,7 @@ angular.module('drinkL.results', [])
   .controller('resultsCrtl', function($scope, Results){
     $scope.names = []
     var initializeResults = function (city) {
+      console.log('struck')
       Results.getResults(city)
         .then(function (results) {
           $scope.names = results;
@@ -10,5 +11,5 @@ angular.module('drinkL.results', [])
           console.error(error);
         });
     };
-    initializeResults('Bakersfield');
+    initializeResults('San Francisco');
   });

@@ -12,4 +12,3 @@ angular.module('drinkL.services', [])
       'getResults': getResults
     };
   });
-  //url: 'http://api.brewerydb.com/v2/locations/?locality=' + searchCity + '&key=6310451998fe13f222f98a5ed6f61795'
