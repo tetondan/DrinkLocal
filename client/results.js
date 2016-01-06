@@ -1,8 +1,7 @@
 angular.module('drinkL.results', [])
   .controller('resultsCrtl', function($scope, $location, $rootScope, Results){
-    // $scope.names = $rootScope.names;
-    // $scope.city = $rootScope.city;
     $scope.getResults = function (city) {
+      $rootScope.city = city;
       Results.getResults(city)
         .then(function (results) {
           console.log('in results', results);
