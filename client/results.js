@@ -1,28 +1,27 @@
 angular.module('drinkL.results', [])
-  .controller('resultsCrtl', function($scope, $location, Results){
-    // $scope.names = [];
-    // $scope.city = '';
-    $scope.go = function ( path ) {
-      $location.path( path );
-      getCity();
-    };
-    var getResults = function (city) {
+  .controller('resultsCrtl', function($scope, $location, $rootScope, Results){
+    // $scope.names = $rootScope.names;
+    // $scope.city = $rootScope.city;
+    $scope.getResults = function (city) {
       Results.getResults(city)
         .then(function (results) {
           console.log('in results', results);
-          $scope.names = results;
+          $rootScope.names = results;
         })
         .catch(function (error) {
           console.error(error);
         });
     };
-    var getCity = function(){
+    $scope.getCity = function(){
       Results.getCityByIp()
         .then(function (results){
-          $scope.city = results;
+          $rootScope.city = results;
         }).then(function(){
-          console.log($scope.city)
-          getResults($scope.city)
+          console.log($rootScope.city)
+          $scope.getResults($rootScope.city)
         });
+    };
+    $scope.go = function ( path ) {
+      $location.path( path );
     };
   });

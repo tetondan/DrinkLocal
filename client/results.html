@@ -1,7 +1,7 @@
 <div class='infobar'>
   <span>Found {{names.length}} Breweries in {{city}}</span><span class='searcher'>Not the city you were looking for? <a href='/'>SEARCH AGAIN!</a></span>
 </div>
-<div class='brewery' ng-controller='resultsCrtl' ng-repeat='name in names'>
+<div class='brewery' ng-repeat='name in names'>
   <p class='name'>{{name.brewery.name}} <img class='logo' src={{name.brewery.images.medium}}></p>
   <p class='info'>Address:</p>
   <p>{{name.streetAddress}}, {{name.locality}}  {{name.postalCode}}</p>

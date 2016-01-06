@@ -69,8 +69,9 @@ h1 {
 }
 
 .searchbar .form, .input{
+  opacity: 0.6;
   float: right;
   border: 1px solid #ff0000;
   width: 175px;
-  font-size: 35px;
+  font-size: 30px;
 }
